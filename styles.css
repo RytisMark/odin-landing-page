@@ -1,5 +1,8 @@
 body {
     font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .header {
@@ -34,4 +37,36 @@ a {
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
+
+.hero-content {
+    background-color: #1F2937;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
 }
