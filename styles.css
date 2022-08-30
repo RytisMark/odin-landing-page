@@ -11,7 +11,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 32px 214px 64px 214px;
+    padding: 24px 188px;
 }
 
 .header-logo {
@@ -79,8 +79,14 @@ button {
 }
 
 .main-img {
-    height: 300px;
-    width: auto;
+    width: 500px;
+    height: 225px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #626b75;
+    color: lightgray;
 }
 
 .left-hero {
@@ -129,4 +135,7 @@ button {
     text-align: center;
 }
 
+.footer {
+    padding: 32px 0px;
+}
 
