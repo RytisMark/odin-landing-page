@@ -161,6 +161,38 @@ button {
     padding: 0 0 0 512px;
 }
 
+    /* Call to action section  */
+.action-section {
+    background-color: #F9FAF8;
+    padding: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-block {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    width: 700px;
+    padding: 12px 0;
+}
+
+.call-main {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.call-second {
+    color: #F9FAF8;
+}
+
+.button {
+    border: #F9FAF8 solid;
+}
+
     /* Footer */
 .footer {
     background-color: #1F2937;
