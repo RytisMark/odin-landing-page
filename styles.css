@@ -7,6 +7,8 @@ body {
     margin: 0;
 }
 
+    /* Hero section */
+/* Header */
 .header {
     background-color: #1F2937;
     display: flex;
@@ -41,6 +43,7 @@ a {
     gap: 16px;
 }
 
+/* Hero content */
 .hero-content {
     background-color: #1F2937;
     display: flex;
@@ -71,17 +74,9 @@ button {
     color: #E5E7EB;
 }
 
-.footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-    justify-content: center;
-}
-
 .main-img {
     width: 500px;
     height: 225px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,6 +91,7 @@ button {
     max-width: 500px;
 }
 
+    /* Information section */
 .info-container {
     margin: 32px 0px 96px 0px;
 }
@@ -135,7 +131,41 @@ button {
     text-align: center;
 }
 
-.footer {
-    padding: 32px 0px;
+    /* Quote section */
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 96px 96px 24px 96px;
 }
 
+.quote {
+    display: flex;
+    text-align: left;
+    max-width: 800px;
+    margin: 0;
+}
+
+.author {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    padding: 0 0 0 512px;
+}
+
+    /* Footer */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0px;
+}
